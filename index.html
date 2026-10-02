@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="zh"><head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="theme-color" content="#05070c"/>
+<title>AROUND THE WORLD</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="app"></div>
+
+<div id="menu">
+  <button id="menu-close-btn" aria-label="Close">✕</button>
+  <div class="brand" data-i18n="brand">INTERACTIVE EXPERIENCE</div>
+  <h1><em>AROUND</em><br/>THE<br/>WORLD</h1>
+  <button class="menu-item" data-game="lobby"><span data-i18n="game_lobby">LUNAR LOBBY</span><small data-i18n="game_lobby_sub">月球大厅 · 自由探索</small></button>
+  <button class="menu-item" data-game="race"><span data-i18n="game_race">MOON RACE</span><small data-i18n="game_race_sub">8.8KM 环形陨石坑竞速</small></button>
+  <button class="menu-item" data-game="venice"><span data-i18n="game_venice">VENICE SPEED</span><small data-i18n="game_venice_sub">晨光运河 · 贡多拉</small></button>
+  <button class="menu-item" data-game="cyber"><span data-i18n="game_cyber">CYBER SPACESHIP</span><small data-i18n="game_cyber_sub">雨夜霓虹 · 飞行出租车</small></button>
+  <div class="menu-sep"></div>
+  <button class="menu-item" id="btn-settings"><span data-i18n="settings">SETTINGS</span><small data-i18n="settings_sub">画质 · 声音</small></button>
+  <button class="menu-item" id="btn-help"><span data-i18n="controls">CONTROLS</span><small data-i18n="controls_sub">操作说明</small></button>
+  <button class="menu-item" id="btn-language"><span data-i18n="language">LANGUAGE</span><small data-i18n="language_sub">中英切换</small></button>
+  <div class="foot" data-i18n="foot">SINGLE PLAYER · THREE r169<br>ESC PAUSE · CLICK MENU TO TRAVEL</div>
+</div>
+
+<button id="menu-open-btn" aria-label="Menu">☰</button>
+<button id="pause-btn" aria-label="Pause">‖</button>
+<button id="lang-btn" aria-label="Language" data-lang-label="EN">EN</button>
+
+<div class="kbd-hint" id="kbd-hint"></div>
+<div id="crosshair"></div>
+<div id="boot"><div data-i18n="title">AROUND THE WORLD</div><div class="blink" data-i18n="boot_init">INITIALIZING SURFACE SYSTEMS…</div></div>
+
+<script type="module" src="js/hub.js"></script>
+
+
+</body></html>
